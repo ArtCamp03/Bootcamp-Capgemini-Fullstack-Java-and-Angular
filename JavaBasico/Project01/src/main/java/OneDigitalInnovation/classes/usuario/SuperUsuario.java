@@ -1,17 +1,24 @@
-package OneDigitalInnovation.classes.usuario;
+package one.digitalinnovation.classes.usuario;
 
 public class SuperUsuario {
-    private String Login;
-    private String Senha;
+
+    private String login;
+    private String senha;
     String nome;
 
-    public SuperUsuario(String login,String senha){
-        this.Login = login;
-        this.Senha = senha;
+    public SuperUsuario(final String login, final String senha) {
+        this.login = login;
+        this.senha = senha;
     }
 
-    public String getLogin(){return Login;}
+    public String getLogin() {
 
-    public String getSenha(){return Senha;}
+        return login;
+    }
+
+    protected String getSenha() {
+
+        return senha;
+    }
 
 }

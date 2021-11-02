@@ -1,10 +1,9 @@
-package OneDigitalInnovation.interfaces;
+package one.digitalinnovation.interfaces;
 
-public class Trator implements Veiculo{
+public class Trator implements Veiculo {
 
     @Override
-    public String registro(){
-        return  "ASDFR4567";
+    public String registro() {
+        return "AWD12387465GFDA";
     }
-
 }

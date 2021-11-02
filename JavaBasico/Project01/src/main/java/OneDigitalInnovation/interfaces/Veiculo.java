@@ -1,17 +1,17 @@
-package OneDigitalInnovation.interfaces;
+package one.digitalinnovation.interfaces;
 
 public interface Veiculo {
+
     String registro();
 
-    default  void ligar() {
-        System.out.println("Ligando o veiculo ");
+    default void ligar() {
 
-        // void desligar()
-
-        /*
-        default void desligar(){
-            System.out.println("desligando o veiculo ");
-         }
-         */
+        System.out.println("Ligando o veículo!");
     }
+
+    //void desligar();
+
+    /*default void desligar() {
+        System.out.println("Desligando o veículo!");
+    }*/
 }
