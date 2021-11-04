@@ -3,6 +3,8 @@ package br.com.dio.collection.list;
 
 import java.util.*;
 
+import static com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolver.iterator;
+
 class ExemploList {
     public static void main(String[] args) {
 // Dada uma lista com 7 notas de um aluno [7, 8.5, 9.3, 5, 7, 0, 3.6], faça:
